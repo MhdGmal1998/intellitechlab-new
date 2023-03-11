@@ -27,16 +27,7 @@ const Greetings = () => {
             <span />
             <span />
           </div>
-          {/* <Box
-            sx={{
-              width: "100%",
-              justifyContent: "center",
-              display: "flex",
-              mt: 10,
-            }}
-          >
-            <h1 className="text-white">Intellitechlab</h1>
-          </Box> */}
+
           <Container className="py-lg-md d-flex">
             <div className="col px-0">
               <Row>
@@ -65,23 +56,11 @@ const Greetings = () => {
                   </div>
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                  <GreetingLottie animationPath="/lottie/logo.json" />
                 </Col>
               </Row>
             </div>
           </Container>
-          {/* <div className="separator separator-bottom separator-skew">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="none"
-              version="1.1"
-              viewBox="0 0 2560 100"
-              x="0"
-              y="0"
-            >
-              <polygon className="fill-white" points="2560 0 2560 100 0 100" />
-            </svg>
-          </div> */}
         </section>
       </div>
     </main>
