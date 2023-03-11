@@ -15,11 +15,11 @@ function SEO() {
       <link rel="canonical" href={seoData.url} />
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={"https://intellitechlab.com"} />
+      <meta property="og:url" content={seoData.url} />
       <meta property="og:title" content={seoData.title} />
       <meta property="og:description" content={seoData.description} />
-      <meta property="og:image" content={"/logo.svg"} />
-      <meta property="og:site_name" content={"intellitechlab"} />
+      <meta property="og:image" content={seoData.image} />
+      <meta property="og:site_name" content={seoData.title} />
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={seoData.url} />

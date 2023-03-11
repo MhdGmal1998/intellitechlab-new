@@ -365,9 +365,9 @@ export const feedbacks = [
 export const seoData = {
 	title: "Intellitechlab software company",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with NodeJS, Laravel, React.js, Next.js and Mobile Application developer with React Native and Flutter",
-	author: "Mohammed Alhomaidi",
-	image: "https://avatars.githubusercontent.com/u/90135545?v=4",
+		"We are a team of intellitectlab Designers and Developers making websites and apps for you",
+	author: "Intellitechlab software company",
+	image: "/logo.svg",
 	url: "https://intellitechlab.com",
 	keywords: [
 		"Mohammed",
