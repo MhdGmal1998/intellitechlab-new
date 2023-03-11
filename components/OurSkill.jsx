@@ -1,15 +1,24 @@
-import { Box, Button, Card, CardContent, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Card,
+  CardContent,
+  Container,
+  Typography,
+} from "@mui/material";
 import { Offer, OurSkills } from "../portfolio";
-import { Col, Container, Row } from "reactstrap";
+import { Col, Row } from "reactstrap";
 import { PRIMARY_COLOR } from "../constant/colors";
 import { Fade } from "react-reveal";
 
 export const OurSkill = () => {
   return (
     <>
-      <Container>
+      <Container fixed>
         <Box mb={6}>
-          <Typography sx={{ fontSize: 33, color: "black" }}>
+          <Typography
+            sx={{ fontSize: 33, color: PRIMARY_COLOR, fontFamily: "Open sans" }}
+          >
             {OurSkills.title}
           </Typography>
         </Box>

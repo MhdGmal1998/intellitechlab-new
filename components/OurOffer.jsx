@@ -1,19 +1,16 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import { Offer } from "../portfolio";
-import { Col, Container, Row } from "reactstrap";
+import { Col, Row } from "reactstrap";
 import DisplayLottie from "./DisplayLottie";
 import { PRIMARY_COLOR } from "../constant/colors";
 import { Fade } from "react-reveal";
 export const OurOffer = () => {
   return (
     <>
-      <Container>
-        <Box>
-          <Typography sx={{ fontSize: 33, color: "black" }}>
-            {Offer.title}
-          </Typography>
-          <Typography sx={{ color: "#808080" }}>{Offer.subTitle}</Typography>
-        </Box>
+      <Container fixed>
+        <div className="section-title">
+          <h2> {Offer.title}</h2>
+        </div>
 
         <Row>
           {Offer?.data?.map((item, index) => (

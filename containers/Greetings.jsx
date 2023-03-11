@@ -40,7 +40,6 @@ const Greetings = () => {
                 <GreetingLottie
                   animationPath="/lottie/logo.json"
                   height={250}
-                  // width={600}
                 />
               </Box>
               <Box
@@ -51,7 +50,6 @@ const Greetings = () => {
                 <GreetingLottie
                   animationPath="/lottie/code.json"
                   height={250}
-                  // width={600}
                 />
               </Box>
               <Box

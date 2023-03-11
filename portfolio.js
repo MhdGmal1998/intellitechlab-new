@@ -1,4 +1,5 @@
 import emoji from "react-easy-emoji";
+import { Language, Speed, TextSnippet } from "@mui/icons-material";
 
 export const greetings = {
 	name: "Intellitechlab",
@@ -16,15 +17,7 @@ export const openSource = {
 
 export const contact = {};
 
-export const socialLinks = {
-	url: "http://mohammedalhomaidi.metawees.com/",
-	linkedin: "https://www.linkedin.com/in/metawees/",
-	github: "https://github.com/MhdGmal1998",
-	instagram: "https://www.instagram.com/q_4dd",
-	facebook: "https://www.facebook.com/metawees1",
-	twitter: "https://twitter.com/metawees1",
-	whatsapp: "https://wa.me/00967771511569"
-};
+
 
 export const OurSkills = {
 	title: 'We Offer Many IT Services Including',
@@ -380,3 +373,27 @@ export const seoData = {
 		"Mohammed Alhomaidi Portfolio",
 	],
 }
+export const services = [
+	{
+		icon: <Language sx={{ fontSize: 40, color: '#6096ba' }} />,
+		title: 'Web Development',
+		description: 'We have build websites for small businesses and large'
+	},
+	{
+		icon: <TextSnippet sx={{ fontSize: 40, color: '#6096ba' }} />,
+		title: 'Mobile App Development',
+		description: 'Creating a Mobile application is easy with us'
+	},
+	{
+		icon: <Speed sx={{ fontSize: 40, color: '#6096ba' }} />,
+		title: 'Graphics & UI/UX Design',
+		description: 'Design is the art of telling a story in a way that is meaningful to the audience'
+	}
+]
+
+export const socialLinks = {
+	url: "http://intellitechlab.com/",
+	linkedin: "https://www.linkedin.com/company/intellitechlab/",
+	facebook: "https://www.facebook.com/profile.php?id=100086518200031",
+	whatsapp: "https://wa.me/0040722805117"
+};

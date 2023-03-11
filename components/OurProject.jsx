@@ -1,4 +1,5 @@
 import { CardMedia, Typography } from "@mui/material";
+import { Fade } from "react-reveal";
 import { Col, Container, Row } from "reactstrap";
 
 export const OurProject = () => {
@@ -37,20 +38,24 @@ export const OurProject = () => {
   return (
     <>
       <Container>
-        <h1>Our projects</h1>
+        <div className="section-title">
+          <h2> Our Clients</h2>
+        </div>
         <Row>
           {prjects?.map((item, index) => (
             <Col key={index} md="4" xs="12">
-              <CardMedia
-                component="img"
-                src={item?.src}
-                sx={{
-                  width: "100%",
-                  height: "200px",
-                  my: 2,
-                  cursor: "pointer",
-                }}
-              />
+              <Fade left duration={2000} delay={300}>
+                <CardMedia
+                  component="img"
+                  src={item?.src}
+                  sx={{
+                    width: "100%",
+                    height: "200px",
+                    my: 2,
+                    cursor: "pointer",
+                  }}
+                />
+              </Fade>
             </Col>
           ))}
         </Row>

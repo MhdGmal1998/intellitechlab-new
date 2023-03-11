@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import PropTypes from "prop-types";
 const Navigation = dynamic(() => import("../components/Navigation"));
-const Greetings = dynamic(() => import("../containers/Greetings"));
+const Greetings = dynamic(() => import("../components/new-greeting"));
 const Skills = dynamic(() => import("../containers/Skills"));
 const Proficiency = dynamic(() => import("../containers/Proficiency"));
 const Education = dynamic(() => import("../containers/Education"));
@@ -24,6 +24,11 @@ import { Box } from "@mui/material";
 import { NewFooter } from "../components/NewFooter";
 import { OurProject } from "../components/OurProject";
 import { OurDetails } from "../components/MoreDetails";
+import { OurService } from "../components/OurService";
+import IntellitechlabNavbar from "../components/new-navigation";
+// import IntellitechlabGreeting from "../components/new-greeting";
+// import { IntellitechlabGreeting } from "../components/new-greeting";
+// import { OurService } from "../components/OurService";
 
 export default function Home({ githubProfileData }) {
 
@@ -39,15 +44,18 @@ export default function Home({ githubProfileData }) {
 
 					</Icon>}
 			/>
-			<Navigation />
+
+			<IntellitechlabNavbar />
 			<Greetings />
+
 			<Box sx={{
 				py: 12,
 				backgroundColor: "rgb(255,255,255)",
 				background:
 					"linear-gradient(155deg, rgba(255,255,255,1) 5%, rgba(232,232,232,1) 100%)",
 			}}>
-				<OurSkill />
+				{/* <OurSkill /> */}
+				<OurService />
 			</Box>
 			<WhatWeDo />
 			<Box sx={{
@@ -69,6 +77,7 @@ export default function Home({ githubProfileData }) {
 			<Box>
 				<OurDetails />
 			</Box>
+
 
 			{/* <Box sx={{
 				width: '100%',
