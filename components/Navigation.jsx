@@ -22,6 +22,8 @@ import {
 } from "reactstrap";
 import DarkTheme from "./DarkTheme";
 import { Icon } from "@iconify/react";
+import { Box, CardMedia, Typography } from "@mui/material";
+import { PRIMARY_COLOR, SECONDARY_COLOR } from "../constant/colors";
 
 const Navigation = () => {
   const [collapseClasses, setCollapseClasses] = useState("");
@@ -35,14 +37,32 @@ const Navigation = () => {
     headroom.init();
   });
 
+  const navigateData = [
+    {
+      name: "Home",
+      label: "Home",
+      href: "#home",
+    },
+    {
+      name: "AboutUs",
+      label: "About us",
+      href: "#about-us",
+    },
+    {
+      name: "Service",
+      label: "Service",
+      href: "#service",
+    },
+    {
+      name: "Home",
+      label: "Home",
+      href: "#home",
+    },
+  ];
+
   return (
     <>
-      <header
-        className="header-global"
-        style={{
-          backgroundColor: "red",
-        }}
-      >
+      <header className="header-global">
         <Navbar
           className="navbar-main navbar-transparent navbar-light bg-gradient-default"
           expand="lg"
@@ -60,9 +80,30 @@ const Navigation = () => {
               }}
             >
               <div>
-                <h4 className="text-white" id="nav-title">
-                  {greetings.name}
-                </h4>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    flexDirection: "column",
+                    cursor: "pointer",
+                  }}
+                  href="http://intellitechlab.com"
+                >
+                  <CardMedia
+                    component="img"
+                    src="/logo.png"
+                    sx={{
+                      height: 40,
+                      width: 40,
+                    }}
+                  />
+                  <Typography
+                    sx={{ color: SECONDARY_COLOR, fontSize: 10 }}
+                    variant="oveline"
+                  >
+                    Intellitechlab
+                  </Typography>
+                </Box>
               </div>
               <div>
                 <button
@@ -84,9 +125,9 @@ const Navigation = () => {
               <div className="navbar-collapse-header">
                 <Row>
                   <Col className="collapse-brand" xs="6">
-                    <h3 className="text-black" id="nav-title">
+                    {/* <h3 className="text-black" id="nav-title">
                       {greetings.name}
-                    </h3>
+                    </h3> */}
                   </Col>
                   <Col className="collapse-close" xs="6">
                     <button className="navbar-toggler" id="navbar_global">

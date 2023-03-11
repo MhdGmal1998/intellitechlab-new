@@ -22,6 +22,8 @@ import { OurOffer } from "../components/OurOffer";
 import { OurSkill } from "../components/OurSkill";
 import { Box } from "@mui/material";
 import { NewFooter } from "../components/NewFooter";
+import { OurProject } from "../components/OurProject";
+import { OurDetails } from "../components/MoreDetails";
 
 export default function Home({ githubProfileData }) {
 
@@ -47,6 +49,7 @@ export default function Home({ githubProfileData }) {
 			}}>
 				<OurSkill />
 			</Box>
+			<WhatWeDo />
 			<Box sx={{
 				py: 12,
 				backgroundColor: 'white',
@@ -54,15 +57,27 @@ export default function Home({ githubProfileData }) {
 				<OurOffer />
 			</Box>
 
-			<WhatWeDo />
 			<Box sx={{
+				py: 12,
+				backgroundColor: "rgb(255,255,255)",
+				background:
+					"linear-gradient(155deg, rgba(255,255,255,1) 5%, rgba(232,232,232,1) 100%)",
+
+			}}>
+				<OurProject />
+			</Box>
+			<Box>
+				<OurDetails />
+			</Box>
+
+			{/* <Box sx={{
 				width: '100%',
 				// backgroundImage: grab,
 				backgroundColor: "#343a40",
 				height: 500,
 			}}>
 				<NewFooter />
-			</Box>
+			</Box> */}
 			{/* <Skills />
 			<Proficiency />
 			<Education />

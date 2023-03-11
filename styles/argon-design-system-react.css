@@ -14429,6 +14429,9 @@ button.bg-lighter:focus {
 	background: linear-gradient(35deg, #adb5bd 0, #adaebd 100%) !important;
 }
 
+.bg-gradient-white{
+	background: linear-gradient(35deg, #fff 0, #adaebd 100%) !important;
+}
 .bg-gradient-dark {
 	background: linear-gradient(35deg, #212529 0, #212229 100%) !important;
 }
@@ -14437,6 +14440,11 @@ button.bg-lighter:focus {
 	background: linear-gradient(35deg, #172b4d 0, #1a174d 100%) !important;
 }
 
+.bg-gradient-nav {
+	/* background: linear-gradient(35deg, #57BDA9 0, #FAB60D 100%,#FAB60D 100%) !important; */
+	background:linear-gradient(155deg, rgba(68,139,125,1) 39%, rgba(91,142,132,1) 68%) !important;
+	/* background-color: #FAB60D; */
+}
 .bg-gradient-white {
 	background: linear-gradient(35deg, #fff 0, white 100%) !important;
 }

@@ -12,11 +12,12 @@ import DisplayLottie from "./DisplayLottie";
 import { Col, Row } from "reactstrap";
 import CodeRoundedIcon from "@mui/icons-material/CodeRounded";
 import React from "react";
+import { PRIMARY_COLOR } from "../constant/colors";
 export const WhatWeDo = () => {
   return (
     <>
       <Row
-        className="my-5 py-10"
+        className="py-10"
         style={{
           backgroundColor: "rgb(255,255,255)",
           background:
@@ -26,54 +27,60 @@ export const WhatWeDo = () => {
         }}
       >
         <Col lg="6" xs="12">
-          <Box
-            sx={{
-              backgroundImage: "url(https://otekit.com/patterns/map2.svg)",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <Box>
-              <DisplayLottie
-                height={400}
-                animationPath={"/lottie/programming-lan.json"}
-              />
+          <Fade left duration={2000}>
+            <Box
+              sx={{
+                backgroundImage: "url(https://otekit.com/patterns/map2.svg)",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
+              <Box>
+                <DisplayLottie
+                  height={400}
+                  animationPath={"/lottie/programming-lan.json"}
+                />
+              </Box>
             </Box>
-          </Box>
+          </Fade>
         </Col>
 
         <Col lg="6" xs="12">
-          <Box
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <Card sx={{ maxWidth: 440, borderRadius: 5 }}>
-              <CardContent sx={{ p: 8 }}>
-                <Box sx={{ mx: -5, my: -4 }}>
-                  <DisplayLottie
-                    height={100}
-                    width={100}
-                    animationPath={"/lottie/code.json"}
-                  />
-                </Box>
-                <Typography sx={{ fontWeight: "bold", my: 2 }}>
-                  We Use The Latest Development Technologies
-                </Typography>
-                <Typography
-                  sx={{
-                    color: "#808080",
-                  }}
-                >
-                  We make sure to take advantage of the latest and most robust
-                  web development technologies. Our focus is more on the
-                  maintainability and availability of support to everything we
-                  make.
-                </Typography>
-              </CardContent>
-            </Card>
-          </Box>
+          <Fade left duration={2000}>
+            <Box
+              sx={{
+                width: "100%",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <Card sx={{ maxWidth: 440, borderRadius: 5 }}>
+                <CardContent sx={{ p: 8 }}>
+                  <Box sx={{ mx: -5, my: -4 }}>
+                    <DisplayLottie
+                      height={100}
+                      width={100}
+                      animationPath={"/lottie/code.json"}
+                    />
+                  </Box>
+                  <Typography
+                    sx={{ fontWeight: "bold", my: 2, color: PRIMARY_COLOR }}
+                  >
+                    We Use The Latest Development Technologies
+                  </Typography>
+                  <Typography
+                    sx={{
+                      color: "#808080",
+                    }}
+                  >
+                    We make sure to take advantage of the latest and most robust
+                    web development technologies. Our focus is more on the
+                    maintainability and availability of support to everything we
+                    make.
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Box>
+          </Fade>
         </Col>
       </Row>
     </>
