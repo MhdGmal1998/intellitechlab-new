@@ -1,4 +1,3 @@
-import emoji from "react-easy-emoji";
 import { Language, Speed, TextSnippet } from "@mui/icons-material";
 
 export const greetings = {
