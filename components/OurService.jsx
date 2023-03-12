@@ -10,7 +10,7 @@ import { OurSkills, services } from "../portfolio";
 import { PRIMARY_COLOR, SECONDARY_COLOR } from "../constant/colors";
 import { Fade } from "react-reveal";
 
-export const OurService = () => {
+const OurService = () => {
   return (
     <Container fixed id="services">
       <div className="section-title">
@@ -56,3 +56,5 @@ export const OurService = () => {
     </Container>
   );
 };
+
+export default OurService;

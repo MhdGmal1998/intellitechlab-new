@@ -4,7 +4,7 @@ import { Col, Row } from "reactstrap";
 import DisplayLottie from "./DisplayLottie";
 import { PRIMARY_COLOR } from "../constant/colors";
 import { Fade } from "react-reveal";
-export const OurOffer = () => {
+const OurOffer = () => {
   return (
     <>
       <Container fixed>
@@ -37,3 +37,4 @@ export const OurOffer = () => {
     </>
   );
 };
+export default OurOffer;

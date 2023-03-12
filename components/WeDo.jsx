@@ -6,14 +6,13 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import { skillsSection } from "../portfolio";
 import { Fade } from "react-reveal";
 import DisplayLottie from "./DisplayLottie";
 import { Col, Row } from "reactstrap";
 import CodeRoundedIcon from "@mui/icons-material/CodeRounded";
 import React from "react";
 import { PRIMARY_COLOR } from "../constant/colors";
-export const WhatWeDo = () => {
+const WhatWeDo = () => {
   return (
     <>
       <Row
@@ -86,3 +85,5 @@ export const WhatWeDo = () => {
     </>
   );
 };
+
+export default WhatWeDo;

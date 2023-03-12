@@ -57,188 +57,188 @@ export const Offer = {
 		}
 	]
 }
-export const skillsSection = {
-	title: "What We do",
-	subTitle:
-		"Give you creative idea to grow your bussiness",
-	data: [
-		{
-			title: "Full Stack Development",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
-				),
-				emoji("⚡ Building responsive static websites using Next.js"),
-				emoji(
-					"⚡ Building RESTful APIs in NodeJS "
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "HTML-5",
-					fontAwesomeClassname: "vscode-icons:file-type-html",
-				},
-				{
-					skillName: "CSS-3",
-					fontAwesomeClassname: "vscode-icons:file-type-css",
-				},
-				{
-					skillName: "JavaScript",
-					fontAwesomeClassname: "logos:javascript",
-				},
-				{
-					skillName: "Reactjs",
-					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-				},
-				{
-					skillName: "ReactNative",
-					fontAwesomeClassname: "tabler:brand-react-native",
-				},
-				{
-					skillName: "Nextjs",
-					fontAwesomeClassname: "vscode-icons:file-type-light-next",
-				},
-				// {
-				// 	skillName: "Python",
-				// 	fontAwesomeClassname: "logos:python",
-				// },
-				// {
-				// 	skillName: "Django",
-				// 	fontAwesomeClassname: "vscode-icons:file-type-django",
-				// },
+// export const skillsSection = {
+// 	title: "What We do",
+// 	subTitle:
+// 		"Give you creative idea to grow your bussiness",
+// 	data: [
+// 		{
+// 			title: "Full Stack Development",
+// 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+// 			skills: [
+// 				emoji(
+// 					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+// 				),
+// 				emoji("⚡ Building responsive static websites using Next.js"),
+// 				emoji(
+// 					"⚡ Building RESTful APIs in NodeJS "
+// 				),
+// 			],
+// 			softwareSkills: [
+// 				{
+// 					skillName: "HTML-5",
+// 					fontAwesomeClassname: "vscode-icons:file-type-html",
+// 				},
+// 				{
+// 					skillName: "CSS-3",
+// 					fontAwesomeClassname: "vscode-icons:file-type-css",
+// 				},
+// 				{
+// 					skillName: "JavaScript",
+// 					fontAwesomeClassname: "logos:javascript",
+// 				},
+// 				{
+// 					skillName: "Reactjs",
+// 					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+// 				},
+// 				{
+// 					skillName: "ReactNative",
+// 					fontAwesomeClassname: "tabler:brand-react-native",
+// 				},
+// 				{
+// 					skillName: "Nextjs",
+// 					fontAwesomeClassname: "vscode-icons:file-type-light-next",
+// 				},
+// 				// {
+// 				// 	skillName: "Python",
+// 				// 	fontAwesomeClassname: "logos:python",
+// 				// },
+// 				// {
+// 				// 	skillName: "Django",
+// 				// 	fontAwesomeClassname: "vscode-icons:file-type-django",
+// 				// },
 
-				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
-				},
-				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
-				},
-				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
-				},
-				{
-					skillName: "asp",
-					fontAwesomeClassname: "vscode-icons:file-type-asp"
-				},
-				{
-					skillName: "Java",
-					fontAwesomeClassname: "bxl:java"
-				}
-			],
-		},
-		{
-			title: "Cloud Infra-Architecture",
-			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
-			],
-			softwareSkills: [
-				// ? Check README To get icon details
-				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
-				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-				{
-					skillName: "Firebase",
-					fontAwesomeClassname: "logos:firebase"
-				},
-				{
-					skillName: "MongoDB",
-					fontAwesomeClassname: "logos:mongodb-icon"
-				},
-				// {
-				// 	skillName: "Heroku",
-				// 	fontAwesomeClassname: "logos:heroku-icon",
-				// },
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
-				},
-				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
-				},
-				// {
-				// 	skillName: "Docker",
-				// 	fontAwesomeClassname: "logos:docker-icon",
-				// },
-				// {
-				// 	skillName: "Github Actions",
-				// 	fontAwesomeClassname: "logos:github-actions",
-				// },
-				// {
-				// 	skillName: "Cloudinary",
-				// 	fontAwesomeClassname: "logos:cloudinary",
-				// },
-				// {
-				// 	skillName: "Nginx",
-				// 	fontAwesomeClassname: "logos:nginx",
-				// },
-				// {
-				// 	skillName: "Sentry",
-				// 	fontAwesomeClassname: "logos:sentry-icon",
-				// },
-			],
-		},
-		{
-			title: "Analyst and Tester System",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Experience in developing Systems with Agile methodology"
-				),
-				emoji(
-					"⚡ Building Scripts for testing in ReactJS and React Native "
-				),
-				// emoji(
-				// 	"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				// ),
-				// emoji(
-				// 	"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				// ),
-				// emoji(
-				// 	"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				// ),
-			],
-			softwareSkills: [
-				{
-					skillName: "jset library",
-					fontAwesomeClassname: "logos:jest"
-				},
-				{
-					skillName: "drawio",
-					fontAwesomeClassname: "vscode-icons:file-type-drawio",
-				},
-				{
-					skillName: "Enzyme",
-					fontAwesomeClassname: "healthicons:enzyme",
-				},
-				{
-					skillName: "Jira Software",
-					fontAwesomeClassname: "logos:jira",
-				},
-				{
-					skillName: "Trello",
-					fontAwesomeClassname: "logos:trello",
-				},
-			],
-		},
-	],
-};
+// 				{
+// 					skillName: "Redux",
+// 					fontAwesomeClassname: "logos:redux",
+// 				},
+// 				{
+// 					skillName: "NPM",
+// 					fontAwesomeClassname: "logos:npm-icon",
+// 				},
+// 				{
+// 					skillName: "Yarn",
+// 					fontAwesomeClassname: "logos:yarn",
+// 				},
+// 				{
+// 					skillName: "asp",
+// 					fontAwesomeClassname: "vscode-icons:file-type-asp"
+// 				},
+// 				{
+// 					skillName: "Java",
+// 					fontAwesomeClassname: "bxl:java"
+// 				}
+// 			],
+// 		},
+// 		{
+// 			title: "Cloud Infra-Architecture",
+// 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
+// 			skills: [
+// 				emoji("⚡ Experience of working on multiple cloud platforms"),
+// 				emoji(
+// 					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
+// 				),
+// 				emoji(
+// 					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+// 				),
+// 			],
+// 			softwareSkills: [
+// 				// ? Check README To get icon details
+// 				{
+// 					skillName: "AWS",
+// 					fontAwesomeClassname: "logos:aws",
+// 				},
+// 				{
+// 					skillName: "Azure",
+// 					fontAwesomeClassname: "logos:microsoft-azure",
+// 				},
+// 				{
+// 					skillName: "Firebase",
+// 					fontAwesomeClassname: "logos:firebase"
+// 				},
+// 				{
+// 					skillName: "MongoDB",
+// 					fontAwesomeClassname: "logos:mongodb-icon"
+// 				},
+// 				// {
+// 				// 	skillName: "Heroku",
+// 				// 	fontAwesomeClassname: "logos:heroku-icon",
+// 				// },
+// 				{
+// 					skillName: "PostgreSQL",
+// 					fontAwesomeClassname: "logos:postgresql",
+// 				},
+// 				{
+// 					skillName: "Github",
+// 					fontAwesomeClassname: "akar-icons:github-fill",
+// 				},
+// 				// {
+// 				// 	skillName: "Docker",
+// 				// 	fontAwesomeClassname: "logos:docker-icon",
+// 				// },
+// 				// {
+// 				// 	skillName: "Github Actions",
+// 				// 	fontAwesomeClassname: "logos:github-actions",
+// 				// },
+// 				// {
+// 				// 	skillName: "Cloudinary",
+// 				// 	fontAwesomeClassname: "logos:cloudinary",
+// 				// },
+// 				// {
+// 				// 	skillName: "Nginx",
+// 				// 	fontAwesomeClassname: "logos:nginx",
+// 				// },
+// 				// {
+// 				// 	skillName: "Sentry",
+// 				// 	fontAwesomeClassname: "logos:sentry-icon",
+// 				// },
+// 			],
+// 		},
+// 		{
+// 			title: "Analyst and Tester System",
+// 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+// 			skills: [
+// 				emoji(
+// 					"⚡ Experience in developing Systems with Agile methodology"
+// 				),
+// 				emoji(
+// 					"⚡ Building Scripts for testing in ReactJS and React Native "
+// 				),
+// 				// emoji(
+// 				// 	"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
+// 				// ),
+// 				// emoji(
+// 				// 	"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
+// 				// ),
+// 				// emoji(
+// 				// 	"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+// 				// ),
+// 			],
+// 			softwareSkills: [
+// 				{
+// 					skillName: "jset library",
+// 					fontAwesomeClassname: "logos:jest"
+// 				},
+// 				{
+// 					skillName: "drawio",
+// 					fontAwesomeClassname: "vscode-icons:file-type-drawio",
+// 				},
+// 				{
+// 					skillName: "Enzyme",
+// 					fontAwesomeClassname: "healthicons:enzyme",
+// 				},
+// 				{
+// 					skillName: "Jira Software",
+// 					fontAwesomeClassname: "logos:jira",
+// 				},
+// 				{
+// 					skillName: "Trello",
+// 					fontAwesomeClassname: "logos:trello",
+// 				},
+// 			],
+// 		},
+// 	],
+// };
 
 export const SkillBars = [
 	{

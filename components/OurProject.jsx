@@ -1,8 +1,7 @@
 import { CardMedia, Typography } from "@mui/material";
 import { Fade } from "react-reveal";
 import { Col, Container, Row } from "reactstrap";
-
-export const OurProject = () => {
+const OurProject = () => {
   const prjects = [
     {
       name: "",
@@ -63,3 +62,4 @@ export const OurProject = () => {
     </>
   );
 };
+export default OurProject;

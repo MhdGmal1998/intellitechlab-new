@@ -2,7 +2,13 @@ import dynamic from "next/dynamic";
 import PropTypes from "prop-types";
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../components/new-greeting"));
-const Skills = dynamic(() => import("../containers/Skills"));
+const OurProject = dynamic(() => import("../components/OurProject"));
+const OurDetails = dynamic(() => import("../components/MoreDetails"));
+const OurService = dynamic(() => import("../components/OurService"));
+const OurOffer = dynamic(() => import("../components/OurOffer"));
+const WhatWeDo = dynamic(() => import("../components/WeDo"));
+const IntellitechlabNavbar = dynamic(() => import("../components/new-navigation"));
+// const Skills = dynamic(() => import("../containers/Skills"));
 const Proficiency = dynamic(() => import("../containers/Proficiency"));
 const Education = dynamic(() => import("../containers/Education"));
 const Experience = dynamic(() => import("../containers/Experience"));
@@ -10,25 +16,15 @@ const Projects = dynamic(() => import("../containers/Projects"));
 const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 import ScrollToTop from "react-scroll-to-top";
 
-const GithubProfileCard = dynamic(() =>
-	import("../components/GithubProfileCard")
-);
+
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
-import { Button } from "reactstrap";
 import { Icon } from "@iconify/react";
-import { WhatWeDo } from "../components/WeDo";
-import { OurOffer } from "../components/OurOffer";
-import { OurSkill } from "../components/OurSkill";
+
+
+// import { OurSkill } from "../components/OurSkill";
 import { Box } from "@mui/material";
-import { NewFooter } from "../components/NewFooter";
-import { OurProject } from "../components/OurProject";
-import { OurDetails } from "../components/MoreDetails";
-import { OurService } from "../components/OurService";
-import IntellitechlabNavbar from "../components/new-navigation";
-// import IntellitechlabGreeting from "../components/new-greeting";
-// import { IntellitechlabGreeting } from "../components/new-greeting";
-// import { OurService } from "../components/OurService";
+
 
 export default function Home({ githubProfileData }) {
 

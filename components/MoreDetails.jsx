@@ -11,7 +11,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import FormatAlignRightIcon from "@mui/icons-material/FormatAlignRight";
 import { PRIMARY_COLOR, SECONDARY_COLOR } from "../constant/colors";
 
-export const OurDetails = () => {
+const OurDetails = () => {
   return (
     <Container
       style={{
@@ -146,3 +146,5 @@ export const OurDetails = () => {
     </Container>
   );
 };
+
+export default OurDetails;
