@@ -4,10 +4,10 @@ const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../components/new-greeting"));
 const OurProject = dynamic(() => import("../components/OurProject"));
 const OurDetails = dynamic(() => import("../components/MoreDetails"));
-const OurService = dynamic(() => import("../components/OurService"));
+// const OurService = dynamic(() => import("../components/OurService"));
 const OurOffer = dynamic(() => import("../components/OurOffer"));
 const WhatWeDo = dynamic(() => import("../components/WeDo"));
-const IntellitechlabNavbar = dynamic(() => import("../components/new-navigation"));
+// const IntellitechlabNavbar = dynamic(() => import("../components/new-navigation"));
 // const Skills = dynamic(() => import("../containers/Skills"));
 const Proficiency = dynamic(() => import("../containers/Proficiency"));
 const Education = dynamic(() => import("../containers/Education"));
@@ -41,7 +41,7 @@ export default function Home({ githubProfileData }) {
 					</Icon>}
 			/>
 
-			<IntellitechlabNavbar />
+			<Navigation />
 			<Greetings />
 
 			<Box sx={{
@@ -51,7 +51,7 @@ export default function Home({ githubProfileData }) {
 					"linear-gradient(155deg, rgba(255,255,255,1) 5%, rgba(232,232,232,1) 100%)",
 			}}>
 				{/* <OurSkill /> */}
-				<OurService />
+				{/* <OurService /> */}
 			</Box>
 			<WhatWeDo />
 			<Box sx={{
